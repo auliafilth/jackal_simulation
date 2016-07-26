@@ -1,5 +1,5 @@
 # jackal_simulation
-This is an independent port of the code from Clearpath Robotics for simulating Jackal in ROS Jade.
+This is the code from Clearpath Robotics set up for simulating Jackal in ROS Jade.
 
 # Install
 To install you need to place this repo into your catkin workspace src. This repo uses submodules so you might need to pull them with this command in this repos root directory.  
