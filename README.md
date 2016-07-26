@@ -2,7 +2,11 @@
 This is an independent port of the code from Clearpath Robotics for simulation Jackal in ROS Jade and Kinetic
 
 # Install
-To install you need to place this repo in your catkin workspace src. After that you need to resolve the deps needed for these to build. To do this run these commands in each of the directories in this repo.
+To install you need to place this repo in your catkin workspace src. This repo uses submodules so you might need to pull them with this command in this repos root directory.  
+
+``` git submodule update --init --recursive ```  
+
+After that you need to resolve the deps needed to build. To do this run these commands in this repos root directory.
 
 ```
 rosdep update
