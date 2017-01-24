@@ -7,3 +7,6 @@
 [submodule "jackal"]
 	path = jackal
 	url = https://github.com/jackal/jackal.git
+[submodule "driver_common"]
+	path = driver_common
+	url = https://github.com/ros-drivers/driver_common.git
