@@ -12,5 +12,5 @@ After that you need to resolve the deps needed to build. To do this run these co
 rosdep update
 rosdep check --from-paths . --ignore-src --rosdistro your_distro
 rosdep install --from-paths . --ignore-src --rosdistro your_distro -y
-sudo apt-get install ros-kinetic-control-toolbox ros-kinetic-joint-limits-interface ros-kinetic-lms1xx
+sudo apt-get install ros-kinetic-control-toolbox ros-kinetic-joint-limits-interface ros-kinetic-lms1xx ros-kinetic-pointgray-camera-description
 ``` 
